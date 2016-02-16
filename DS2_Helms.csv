@@ -1,0 +1,112 @@
+itemName,PdefBonus,PdefBase,PdefStrk,PdefSlsh,PdefThst,MdefBase,MdefFire,MdefLght,MdefDark,SdefPois,SdefBled,SdefPetr,SdefCrse,Special,Poise,Weight,Durability
+None,U,0,0,0,0,0,0,0,0,0,0,0,0,None,0,0,0
+Alonne Captain Helm,C,53,50,56,5,11,17,7,11,6,12,0,0,None,12,5.1,90
+Alonne Knight Helm,C,40,47,52,49,9,15,7,9,5,10,0,0,None,9,4.6,80
+Alva Helm,C,38,36,39,37,10,11,8,11,11,15,0,0,None,6,3.7,80
+Alva Helm +3,C,49,46,50,48,13,14,10,14,14,19,0,0,None,6,3.7,80
+Archdrake Helm,C,49,49,49,49,16,15,26,15,13,11,0,0,None,7,5.4,80
+Astrologist's Hat,E,26,27,25,25,19,13,13,16,8,8,0,0,Int +2,0,2.2,50
+Aurous Helm,E,29,31,27,28,11,9,12,10,8,9,0,0,None,0,1.2,40
+Bandit Helm,D,44,44,45,42,13,14,11,13,10,14,0,0,None,3,4.1,60
+Bell Keeper Helm,D,52,45,57,55,11,18,5,20,8,16,0,0,None,5,4.8,60
+Benhart's Knight Helm,C,69,67,72,69,16,15,14,16,18,14,0,0,None,11,7,72
+Black Dragon Helm,C,56,54,57,56,20,44,21,20,25,36,29,29,None,0,2.2,225
+Black Hollow Mage Hood,E,32,34,31,31,27,19,21,23,14,13,13,13,Int +1,0,1.9,50
+Black Hood,E,23,25,22,22,25,17,17,17,10,9,13,12,Int +2 Fth +2 Cast Speed+,0,0.9,55
+Black Leather Thief Mask,E,20,21,20,20,10,7,7,8,12,8,0,0,None,0,1.2,55
+Black Leather Thief Mask +3,E,26,27,25,25,12,9,9,10,15,10,0,0,None,0,1.2,55
+Black Witch hat,E,19,23,19,19,15,7,15,15,7,8,12,12,Spell Slot +1,0,0.5,45
+Bone King Crown,E,32,35,30,30,20,22,18,28,16,10,12,20,None,0,1.7,65
+Brigand Hood,E,22,24,22,20,11,9,8,9,9,9,0,0,None,0,1.2,60
+Cale's Helm,D,39,38,38,40,11,12,9,11,17,11,0,0,None,0,3,60
+Catarina Helm,C,57,57,67,57,12,14,8,12,0,0,0,0,None,0,4.5,95
+Chaos Hood,E,23,25,22,22,17,25,17,24,10,9,13,12,Int +3 Casting Speed+,0,0.9,55
+Creighton's Helm,C,40,39,41,40,12,13,7,12,9,15,0,0,None,6,4.3,70
+Dark Mask,C,44,44,47,42,12,12,8,25,12,14,0,0,Int +1 Faith +1,6,3.8,90
+Desert Sorceress Hood,E,10,10,10,10,9,6,8,8,4,2,6,3,Int +3,0,0.6,50
+Dingy Hood,E,21,24,20,20,13,11,12,12,8,9,18,19,None,0,0.8,40
+Dragon Acolyte Helm,E,23,24,22,22,9,9,11,11,11,9,0,11,None,0,1.5,55
+Dragon Sage Hood,E,25,27,25,25,11,11,12,13,12,10,0,21,Faith +1,0,2,55
+Dragonrider Helm,C,113,106,118,113,13,12,13,13,12,16,0,0,None,14,7.5,95
+Drakeblood Helm,C,76,74,83,79,10,16,8,14,14,18,0,0,None,7,4.7,85
+Drakekeeper Helm,C,67,65,71,67,10,11,9,10,10,14,0,14,None,12,6,90
+Drangleic Helm,C,79,75,86,81,13,13,11,13,13,17,0,0,None,10,5.9,90
+Durgo's Hat,E,22,24,23,21,12,10,9,10,9,8,0,0,Extends Bow Range,0,2.6,48
+Elite Knight Helm,C,40,39,44,40,11,12,8,11,9,13,0,0,None,6,4.5,85
+Elite Knight Helm +3,C,52,50,57,52,14,15,10,14,12,17,1,0,None,6,4.5,85
+Executioner Helm,D,61,56,65,63,14,15,10,33,11,42,0,29,None,5,4.4,65
+Falconer Helm,D,43,38,47,44,13,19,7,13,9,17,0,0,None,6,4.5,75
+Faraam Helm,C,47,45,51,48,11,12,7,11,9,12,0,0,None,9,4.8,85
+Faraam Helm +3,C,61,58,66,62,14,15,9,14,12,15,0,0,None,9,4.8,85
+Grave Warden Helm,E,7,7,6,6,3,3,4,4,4,3,0,0,None,0,0.5,40
+Gyrm Helm,C,86,86,90,82,12,11,10,12,24,19,13,13,None,19,8.2,70
+Gyrm Warrior Greathelm,C,106,109,109,97,12,14,14,12,9,23,0,0,Req Str 14,24,9.6,85
+Gyrm Warrior Helm,C,99,103,103,90,12,14,14,12,9,23,0,0,Req Str 14,20,8.9,75
+Hard Leather Helm,D,40,28,53,39,8,10,3,8,10,18,0,0,None,5,4,65
+Havel's Helm,C,112,98,126,112,16,17,15,16,6,27,13,13,None,17,7.5,255
+Heide Knight Great Helm,C,59,56,63,59,10,13,9,18,19,15,0,16,None,11,6.0,90
+Heide Knight Great Helm +3,C,59,56,63,59,10,13,9,18,19,15,0,16,None,11,6.0,90
+Heide Knight Iron Mask,C,53,46,62,52,11,11,4,17,19,30,0,16,None,8,5.2,95
+Heide Knight Iron Mask +3,C,68,59,80,67,14,14,5,22,24,38,0,20,None,8,5.2,95
+Hexer Hood,E,23,25,22,22,17,25,17,24,10,9,13,12,Int +1 Fth +1 casts +10%,0,0.9,55
+Hollow Infantry Helm,D,31,32,30,30,7,6,8,7,7,7,0,0,None,0,4,40
+Hollow Soldier Helm,C,34,33,36,35,11,12,8,11,9,11,0,0,None,4,4.3,35
+Hunter's Hat,D,7,18,16,16,6,4,8,7,7,6,0,0,None,0,1.2,50
+Imperious Helm,C,63,61,67,63,13,11,9,13,11,13,10,10,None,10,5.8,85
+Imperious Helm +3,C,79,75,82,79,14,11,8,14,11,15,11,11,None,10,5.8,85
+Imported Hood,D,16,18,15,15,5,4,6,5,6,6,0,0,None,0,2.2,35
+Infantry Helm,D,38,40,38,38,10,9,12,10,0,0,0,0,None,0,4,55
+Insolent Helm,C,42,40,45,42,11,11,13,10,10,13,10,10,Faith +2,6,4.8,75
+Ironclad Helm,C,64,59,68,64,10,11,7,10,6,17,0,0,None,13,6.3,90
+Jester's Cap,D,34,37,33,33,19,19,19,19,21,16,20,14,Item Discovery +2%,0,3,45
+Jester's Cap +3,D,44,47,43,43,25,25,25,25,29,22,28,19,Item Discovery +2%,0,3,45
+Jester's Cap +6,D,55,58,53,53,31,31,31,31,33,25,32,21,Item Discovery +2%,0,3,45
+Judgment Mask,E,49,53,47,47,25,20,17,22,13,14,0,27,None,0,2.5,50
+King's Helm,C,45,43,48,45,15,15,12,11,17,16,17,0,Int +3 Faith +3 HP +6,2,3.8,230
+Knight Helm,C,35,34,40,35,11,11,8,11,9,13,0,0,None,8,4.2,80
+Leydia Black Hood,E,20,22,19,19,14,9,8,18,10,9,8,12,Int +1 Faith +1,0,1,50
+Leydia White Hood,E,14,15,13,13,9,9,8,12,7,0,0,0,None,0,1,50
+Lion Warrior Helm,E,11,12,11,11,5,5,5,9,4,4,8,16,None,0,0.5,40
+Looking Glass Helm,C,100,89,113,100,14,15,23,14,13,25,0,0,None,16,7,150
+Lucatiel's Helm,D,25,27,25,25,14,12,15,14,11,9,5,9,None,0,2,65
+Mad Warrior Mask,C,69,69,72,65,11,11,8,11,14,14,13,13,None,9,5,75
+Manikin Mask,E,36,38,35,35,18,17,22,22,21,29,9,0,None,0,1.8,65
+Manikin Mask +3,E,46,49,45,45,23,22,28,28,27,38,12,0,None,0,1.8,65
+Mastodon Helm,C,66,62,71,66,10,10,6,10,12,14,0,0,Req Str 16,12,6.6,90
+Monastery Headcloth,E,30,32,28,28,26,19,17,19,33,21,19,22,None,0,0.6,55
+Monastery Hood,E,30,32,28,28,26,19,17,19,33,21,19,22,None,0,0.6,55
+Moon Butterfly Hat,B,35,37,33,33,25,38,25,25,16,14,20,18,Int +1 Poisons Foes,0,0.8,35
+Nahr Alma Helm,E,19,20,19,19,11,9,10,19,9,9,12,12,+2.5% souls,0,1.5,50
+Old Ironclad Helm,C,56,52,61,56,8,9,6,8,5,14,0,0,Req Str 14,11,6.3,45
+Old Knight Helm,C,77,73,80,77,9,9,7,9,7,15,0,0,None,14,7,20
+Pate's Helm,D,38,27,51,38,8,10,3,8,9,17,0,0,None,5,3.5,80
+Peasant's Hat,E,9,9,8,8,4,4,5,4,6,5,0,0,None,0,1.3,45
+Penal Mask,B,65,59,73,60,27,33,17,30,10,15,21,41,Equip load +3%,5,5.1,120
+Priestess Hood,E,23,24,22,22,14,14,20,16,9,9,11,11,None,0,1.2,50
+Prisoner's Hood,E,4,5,4,4,4,4,6,4,5,3,0,0,Item Discovery +2%,0,0.8,25
+Rogue Helm,E,11,11,11,11,4,4,4,5,4,4,0,0,None,0,0.7,40
+Royal Soldier Helm,C,41,39,43,42,13,13,9,13,11,12,0,0,None,6,4.8,70
+Royal Swordsman Helm,C,42,37,47,44,10,12,7,10,6,12,0,0,None,7,4.7,75
+Ruin Helm,C,53,48,57,54,12,14,8,12,7,17,22,0,None,8,4,105
+Rusted Mastodon Helm,C,59,55,63,59,8,8,5,8,10,11,0,0,None,10,6,40
+Saint's Hood,E,23,25,22,22,17,17,21,17,10,9,2,18,Faith +1 Spells +10%,0,0.9,55
+Shadow Mask,E,34,38,30,30,18,20,19,24,27,21,17,0,None,0,1.8,60
+Smelter Demon Helm,C,129,116,142,129,18,34,17,18,12,28,18,18,Needs Strength 16,15,9,160
+Steel Helm,C,62,59,66,62,9,10,7,9,8,14,0,0,None,12,5.4,100
+Syan's Helm,C,61,55,65,63,12,16,7,12,7,20,0,0,None,10,6.2,85
+Targray's Helm,C,36,34,39,36,9,9,7,10,11,12,0,0,None,5,4,75
+Tattered Cloth Hood,E,20,21,20,20,11,15,10,11,18,6,0,4,None,0,1.1,55
+Throne Defender Helm,C,87,84,90,88,18,20,10,18,12,20,0,0,None,8,6.4,100
+Throne Watcher Helm,C,70,66,75,70,30,20,16,20,16,19,0,0,None,4,5.6,95
+Traveling Merchant Hat,D,25,27,24,24,7,8,8,7,9,10,0,0,Raises Item Discovery,0,2.6,60
+Tseldora Hat,E,10,11,10,10,5,5,6,4,5,5,0,0,Incease Souls +2.5%,0,1.4,40
+Varangian Helm,D,53,46,60,65,17,19,10,17,17,23,0,0,None,5,4.6,55
+Velstadt's Helm,C,113,103,119,117,17,18,10,36,13,31,18,23,Vit +1 & End +1,11,7.5,140
+Vengarl's Helm,C,99,93,105,99,15,19,14,15,14,18,0,0,None,12,6.8,85
+Wanderer Hood,E,23,22,23,24,8,10,11,8,9,14,0,0,None,0,1.4,50
+White Hollow Helm,E,34,35,33,33,28,20,21,23,13,13,19,19,None,0,1.8,50
+White Priest Headpiece,E,23,25,23,23,14,14,18,16,10,9,9,9,None,0,1.4,50
+Warlock Mask,E,26,30,24,24,36,17,24,36,19,19,24,60,Int +2 souls +2.5%,4,4.8,50
+Xanthous Crown,E,67,116,67,44,16,5,11,15,7,7,0,83,None,0,5,60
+Sanctum Knight Helm,C,96,88,104,96,12,12,10,12,12,18,0,0,None,9,5.8,90
+Crown of the Sunken King Helm,E,35,33,35,33,9,8,8,7,18,10,10,0,None,0,5.8,90

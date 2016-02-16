@@ -1,0 +1,100 @@
+itemName,PdefBonus,PdefBase,PdefStrk,PdefSlsh,PdefThst,MdefBase,MdefFire,MdefLght,MdefDark,SdefPois,SdefBled,SdefPetr,SdefCrse,Special,Poise,Weight,Durability
+None,0,0,0,0,0,0,0,0,0,0,0,0,0,None,0,0,0
+Agdayne's Black Robes,B,93,98,90,90,54,52,48,72,55,38,48,65,None,0,5.8,65
+Alonne Captain Armor,A,162,153,171,162,34,53,23,34,17,38,0,0,None,38,15.6,90
+Alonne Knight Armor,A,152,146,161,152,27,46,22,27,14,32,0,0,None,24,14.2,80
+Alva Armor,A,89,85,90,88,25,27,19,26,26,35,0,0,None,15,8.8,80
+Alva Armor +3,A,116,110,119,114,32,35,24,34,34,45,0,0,None,15,8.8,80
+Archdrake Robes,A,89,89,89,89,28,27,47,27,24,20,0,0,None,14,9.8,80
+Astrologist Robe,U,60,63,58,58,44,30,30,37,19,19,0,0,None,0,5.1,50
+Aurous Armor,B,76,82,72,74,30,25,32,28,20,24,0,0,None,0,3.2,40
+Bandit Armor,B,67,66,69,64,20,21,17,20,14,21,0,0,None,5,6.2,60
+Bellkeeper Armor,B,66,69,64,64,14,13,19,25,16,13,0,0,None,0,6,60
+Benhart's Armor,A,104,100,108,104,24,23,21,24,27,21,0,0,None,18,10.5,72
+Black Dragon Armor,A,125,121,127,125,45,98,47,45,57,80,65,65,None,0,4.8,225
+Black Hollow Mage Robes,B,32,34,31,31,47,33,36,39,23,21,22,22,None,0,3.3,50
+Black Leather Armor,B,65,68,64,64,31,24,23,26,38,26,0,0,None,0,3.9,55
+Black Leather Armor +3,B,84,88,83,83,40,30,29,33,52,36,0,0,None,0,3.9,55
+Black Robes,B,67,72,64,64,73,49,49,49,30,26,39,35,None,0,2.6,55
+Black Witch Cloak,B,97,105,94,94,90,72,84,87,32,39,43,43,None,0,4.8,55
+Bone King Armor,B,71,77,68,68,45,50,41,63,36,23,28,45,None,0,3.8,65
+Brigand Armor,B,57,62,56,53,28,22,21,24,23,23,0,0,None,0,3.1,60
+Cale's Armor,B,39,38,38,40,11,12,9,11,17,11,0,0,None,0,3,60
+Catarina Armor,U,149,149,173,149,32,35,21,32,0,0,0,0,None,0,11.7,63
+Chaos Robe,B,67,72,64,49,49,73,49,71,30,26,39,35,None,0,2.6,55
+Creighton's Armor,U,90,88,93,90,27,30,16,27,21,34,0,0,None,14,9.7,10
+Dark Armor,A,114,114,120,109,30,30,20,64,31,35,0,0,None,16,9.8,90
+Desert Sorceress Top,U,45,47,43,43,42,29,35,38,16,11,29,14,None,0,2.7,50
+Dingy Robe,B,81,91,76,76,49,41,46,46,30,34,69,69,None,0,3,40
+Dragon Acolyte Armor,B,59,62,57,57,24,24,28,30,27,23,0,27,None,0,3.9,55
+Dragonrider Armor,A,242,226,252,242,27,25,28,27,26,33,0,36,None,40,16,95
+Drakekeeper Armor,A,177,170,186,177,27,30,24,27,27,38,0,36,None,36,15.7,90
+Drangleic Mail,A,195,184,211,199,32,32,28,32,33,42,0,0,None,28,14.5,90
+Elite Knight Armor,A,104,101,114,104,29,32,21,29,24,34,0,0,None,15,11.7,85
+Elite Knight Armor +3,A,134,131,148,134,38,41,27,38,31,44,0,0,None,15,11.7,85
+Executioner Armor,B,93,85,99,96,21,23,15,50,17,64,0,45,None,7,6.7,65
+Falconer Armor,B,74,78,71,71,22,19,25,22,24,19,0,0,None,12,7.7,75
+Faraam Armor,A,124,118,113,126,28,30,18,28,24,33,0,0,None,24,12.6,85
+Faraam Armor +3,A,161,153,172,164,36,39,23,36,31,42,0,0,None,24,12.6,85
+Grave Warden Armor,B,79,86,76,76,35,33,42,45,42,34,0,0,None,0,6,60
+Grave Warden Armor +3,B,102,111,98,98,45,42,54,58,54,44,0,0,None,0,6,60
+Gyrm Armor,A,129,129,135,123,19,17,15,19,36,28,19,19,Req Str 14,26,12.3,70
+Gyrm Warrior Armor,A,218,227,227,200,26,31,31,26,19,51,0,0,None,42,19.7,75
+Hard Leather Armor,B,68,71,66,67,21,14,26,22,26,24,0,0,None,0,7.2,65
+Havel's Armor,A,291,255,328,291,42,45,38,42,17,69,33,33,None,47,19.5,225
+Heide Knight Armor,A,108,101,115,108,18,24,16,33,35,27,0,28,None,20,10.9,90
+Hexer Chest,U,67,72,64,64,49,73,49,71,30,26,39,35,None,0,2.6,55
+Hollow Infantry Armor,B,46,47,45,45,10,8,12,12,10,10,0,0,None,0,5.9,40
+Hollow Soldier Armor,A,69,66,73,70,22,23,15,22,18,21,0,0,None,7,8.6,35
+Imperious Armor,A,160,154,169,160,33,28,23,33,27,34,26,26,None,30,14.7,85
+Imported Tunic,B,47,53,45,45,14,12,17,14,17,19,0,0,None,0,6.5,35
+Infantry Armor,B,57,59,55,55,14,13,18,14,15,15,0,0,None,0,5.9,55
+Insolent Armor,A,85,81,91,85,22,22,27,20,19,26,21,21,None,16,9.8,75
+Ironclad Armor,A,171,158,182,171,27,29,19,24,15,47,0,0,Negates Backstabs. Req Str14,32,29.8,90
+Jester's Robe,B,66,70,63,63,37,37,37,37,40,30,39,26,Negates Criticals,0,5.7,45
+Judgement Robe,B,77,82,74,74,39,32,27,35,21,22,0,43,None,0,3.9,50
+King's Armor,A,143,136,151,143,48,48,38,34,54,49,,,None,16,12,120
+Knight's Armor,A,92,89,104,92,27,29,20,27,24,34,0,0,None,20,10.9,80
+Leather Armor,B,65,69,63,63,24,15,31,26,26,22,0,0,None,0,4.7,60
+Leydia Black Armor,B,70,77,66,66,48,33,29,63,35,33,27,43,None,0,3.5,50
+Leydia White Robe,B,48,53,46,46,32,32,27,41,23,21,18,28,None,0,3.5,50
+Lion Mage Robe,B,39,41,36,36,37,30,31,37,17,17,20,45,casting speed +11%,0,2.2,40
+Lion Warrior Cape,B,28,29,28,28,12,11,11,22,8,8,21,40,Reduces Fall Damage,0,1.5,55
+Llewellyn Armor,B,120,112,124,121,38,46,29,38,39,55,22,22,None,0,6.8,85
+Looking Glass Armor,A,288,255,335,288,40,42,66,40,37,70,0,0,None,40,18.3,150
+Lucatiel's Armor,B,76,82,74,74,42,37,46,42,33,26,14,27,None,0,6,65
+Mad Warrior Armor,A,171,171,180,163,28,27,21,28,36,36,33,33,None,25,12.5,75
+Manikin Top,B,46,49,44,44,23,22,28,29,27,38,12,0,None,0,2.3,65
+Mastodon Armor,A,198,184,211,198,26,28,17,26,33,37,0,0,Req Str 16,35,17.7,90
+Monastery Robe,B,67,71,62,62,59,44,38,43,75,47,42,50,None,0,1.6,55
+Moon Butterfly Wings,U,48,52,45,45,25,16,25,21,46,20,26,28,Inflicts Poison/Increases Jump,0,1.4,35
+Nahr Alma Armor,B,44,47,43,43,25,21,23,44,22,22,29,29,Chest +10% souls,0,3.5,50
+Old Ironclad Armor,A,150,139,161,150,22,24,17,22,12,38,0,0,Req Str 14,28,29.8,45
+Old Knight Armor,A,181,170,189,181,20,20,15,20,16,34,0,0,None,40,16.4,20
+Pate's Armor,B,65,67,63,63,21,14,26,22,23,21,0,0,None,0,5.9,70
+Peasant Top,B,25,28,24,24,12,13,16,11,18,15,0,0,None,0,3.8,45
+Penal Straight Jacket,B,75,77,77,70,31,39,28,35,12,9,25,32,None,0,6.2,55
+Priestess Robe,B,53,55,52,52,53,33,46,37,22,21,26,26,None,0,2.8,50
+Prisoner's Rags,U,11,12,11,11,11,11,17,13,13,10,0,0,Item Discovery +5%,0,2.2,25
+Red Lion Warrior Cape,B,34,35,33,33,16,15,15,26,12,11,23,47,Reduce Fall damage,0,1.5,55
+Royal Soldier Armor,A,79,74,82,80,24,25,17,24,21,23,0,0,None,16,9.2,70
+Royal Swordsman Armor,A,101,88,112,105,23,29,16,23,13,29,0,0,None,18,11.2,75
+Ruin Armor,A,139,126,150,142,33,37,22,33,20,44,57,0,None,18,10.5,105
+Rusted Mastodon Armor,A,156,146,167,156,21,22,14,21,26,30,0,0,None,28,15.9,40
+Saint's Robe,B,67,72,64,64,49,49,61,49,30,26,57,53,None,0,2.6,55
+Shadow Top,U,48,55,43,43,26,29,27,35,39,30,25,0,None,,2.6,60
+Singer's Dress,B,30,33,29,29,45,35,41,41,31,23,43,43,None,0,2.6,40
+Smelter Demon Armor,A,252,255,304,186,35,66,33,35,24,54,36,36,Req Str 16,39,17.6,160
+Steel Armor,A,160,153,171,160,24,26,19,24,22,36,0,0,None,32,14,100
+Syan's Armor,A,137,123,146,139,26,35,15,26,16,45,,,None,23,13.8,85
+Targray's Armor,A,89,83,96,89,22,22,18,25,27,30,0,0,None,17,9.8,75
+Tattered Cloth Robe,B,50,53,48,48,26,36,24,26,43,15,0,10,None,0,2.7,55
+Throne Defender Armor,A,189,181,195,189,38,42,22,38,26,44,0,0,None,25,13.8,100
+Throne Watcher Armor,A,139,132,150,139,61,39,31,39,31,37,0,0,None,16,11.2,95
+Traveleing Merchant Coat,U,74,79,72,72,21,23,25,21,26,29,0,0,None,0,7.7,60
+Tseldora Top,B,22,24,21,21,10,11,13,9,10,11,0,0,Incease Souls +5%,0,3,40
+Varangian Armor,B,67,71,66,66,22,16,25,22,26,23,0,0,None,0,5.1,55
+Velstadt's Armor,A,229,209,242,238,35,36,21,73,26,63,37,48,None,28,15.2,140
+Vengarl's Armor,U,219,207,234,219,34,42,30,34,32,40,0,0,None,34,15.1,85
+Wanderer Coat,B,58,56,58,59,19,25,28,20,22,35,0,0,None,0,3.5,50
+White Hollow Top,B,52,54,51,51,44,32,33,37,21,19,30,30,None,0,2.8,50

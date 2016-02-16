@@ -1,0 +1,96 @@
+itemName,PdefBonus,PdefBase,PdefStrk,PdefSlsh,PdefThst,MdefBase,MdefFire,MdefLght,MdefDark,SdefPois,SdefBled,SdefPetr,SdefCrse,Special,Poise,Weight,Durability
+None,0,0,0,0,0,0,0,0,0,0,0,0,0,None,0,0,0
+Agdayne's Black Kilt,E,46,49,45,45,27,26,24,26,28,19,24,33,None,0,2.9,65
+Alonne Captain Leggings,C,105,100,111,105,19,31,15,19,10,22,0,0,None,20,9.8,80
+Alonne Knight Leggings,C,105,100,111,105,19,31,15,19,10,22,0,0,None,20,9.8,80
+Alva Leggings,C,53,50,55,52,15,16,11,16,16,20,0,0,None,9,5.2,80
+Alva Leggings +3,C,68,65,71,67,19,20,14,20,20,26,0,0,None,9,5.2,80
+Archdrake Leggings,C,43,43,43,43,14,13,22,13,11,10,0,0,None,8,4.7,80
+Astrologist Kilt,U,45,47,43,43,33,22,22,28,14,14,0,0,None,0,3.8,50
+Aurous Invisible Leggings,E,48,51,45,46,19,15,20,17,13,15,0,0,None,0,2,40
+Aurous Visible Leggings,C,70,68,74,71,25,24,17,26,20,25,0,0,None,10,5.8,80
+Bandit Leggings,D,30,30,31,29,9,9,7,9,7,10,0,0,None,3,2.8,60
+Bellkeeper Leggings,D,44,46,43,43,9,9,12,17,11,9,0,0,None,0,4,60
+Benhart's Boots,C,64,62,67,64,15,14,13,15,17,13,0,0,None,11,6.5,72
+Black Dragon Leggings,C,72,70,74,72,26,57,27,26,33,47,38,38,None,0,2.7,225
+Black Leather Boots,E,37,38,36,36,18,13,13,15,21,15,0,0,None,0,2.2,55
+Black Leather Boots +3,E,48,49,46,46,23,17,16,19,27,19,0,0,None,0,2.2,55
+Black Boots,E,52,55,49,49,56,38,38,38,23,20,30,27,None,0,2,55
+Black Witch Kilt,E,34,37,33,33,32,25,30,31,11,14,15,15,None,0,1.7,55
+Bone King Kilt,E,54,59,52,52,34,38,31,48,28,18,21,34,None,0,2.9,65
+Brigand Trousers,E,33,36,32,31,16,13,12,14,13,13,0,0,None,0,1.8,60
+Cale's Leggings,D,83,82,82,86,24,25,20,24,37,23,0,0,None,0,6.4,60
+Catarina Leggings,U,88,88,102,88,19,21,13,19,0,0,0,0,None,0,6.9,63
+Chaos Leggings,E,52,55,49,49,38,56,38,54,23,20,30,27,None,0,2,55
+Creighton's Leggings,U,42,41,43,42,13,14,7,13,10,16,0,0,None,7,4.5,70
+Dark Leggings,C,68,68,71,65,18,18,12,38,18,21,0,0,None,9,5.8,90
+Desert Sorceress Skirt,U,40,42,39,39,37,26,31,34,14,9,26,12,None,0,2.4,50
+Dragon Acolyte Boot,E,36,38,35,35,15,15,17,18,17,33,0,0,None,0,2.4,55
+Dragonrider Leggings,C,112,104,116,112,12,12,13,12,12,15,0,0,None,12,7.4,95
+Drakekeeper Leggings,C,94,91,99,94,15,16,13,15,15,20,0,19,None,14,8.4,90
+Drangleic Leggings,C,102,97,110,104,17,17,15,17,17,22,0,0,None,12,7.6,90
+Elite Knight Leggings,C,61,59,67,61,17,19,13,17,14,20,0,0,None,9,6.9,85
+Elite Knight Leggings +3,C,79,77,87,79,22,24,16,22,18,26,0,0,None,9,6.9,85
+Executioner Leggings,D,38,34,40,39,9,9,6,20,7,26,0,18,None,4,2.7,65
+Falconer Boots,D,55,59,54,54,17,14,19,17,18,15,0,0,None,8,5.8,75
+Faraam Leggings,C,78,74,83,79,18,19,12,18,30,41,0,0,None,11,7.9,85
+Faraam Leggings +3,C,101,95,107,103,23,24,15,23,19,26,0,0,None,11,7.9,85
+Flying Feline Boots,E,40,49,35,36,15,9,25,16,17,19,0,50,Reduces Fall Damage,0,2,66
+Grave Warden Leggings,E,50,54,48,48,22,21,27,28,27,22,0,0,None,0,3.8,60
+Gyrm Boots,C,59,59,61,56,8,8,7,8,17,13,9,9,None,14,5.6,70
+Gyrm Warrior Boots,C,97,101,101,89,12,14,14,12,9,23,0,0,None,22,8.8,75
+Hard Leather Leggings,D,40,42,39,39,13,8,16,13,14,13,0,0,None,0,3.8,65
+Havel's Leggings,C,172,150,193,172,25,27,23,25,10,41,19,19,Req Str 20,28,11.5,255
+Heide Knight Leggings,C,63,59,68,63,11,14,9,19,21,16,0,17,None,10,6.4,90
+Hexer Leggings,U,52,55,49,49,38,56,38,54,23,20,30,27,None,0,2,55
+Hollow Infantry Boots,D,35,36,34,34,8,6,9,8,7,7,0,0,None,0,4.5,40
+Hollow Soldier Leggings,C,14,14,15,15,5,5,3,5,4,4,0,0,None,0,1.8,35
+Imperious Leggings,C,79,75,83,79,14,11,9,14,11,15,11,11,None,17,7.5,85
+Imperious Leggings +3,C,102,97,107,102,18,14,11,18,14,19,14,14,None,17,7.5,85
+Imported Trousers,D,26,29,25,25,8,7,8,9,9,10,0,0,None,0,3.6,35
+Infantry Leggings,D,43,45,42,42,11,10,14,11,11,11,0,0,None,0,4.5,55
+Insolent Boots,C,50,48,54,50,13,13,16,12,12,15,13,13,None,9,5.8,75
+Ironclad Leggings,C,96,89,102,96,15,16,11,15,8,26,0,0,None,20,9.4,90
+Jester's Boots,D,31,33,30,30,17,17,17,17,19,14,18,12,Reduces Fall Damage,0,2.7,45
+Judgement Leggings,E,83,89,80,80,42,34,29,37,22,24,0,46,None,0,2.8,50
+King's Leggings,C,85,81,90,85,28,28,22,20,32,29,0,0,None,10,7.1,120
+Knight's Leggings,C,54,52,61,54,16,17,12,16,14,20,0,0,None,12,6.4,80
+Leather Leggings,D,39,41,37,37,14,9,19,15,16,13,0,0,None,0,2.8,60
+Lion Mage Skirt,E,25,26,23,23,24,19,20,24,11,11,13,29,casting speed +11%,0,1.4,40
+Lion Warrior Boots,E,23,23,22,22,10,9,9,17,6,6,17,32,casting speed+,0,1.2,40
+Llewellyn Leggings,D,55,51,57,55,17,21,13,17,18,25,10,10,None,0,3.1,85
+Looking Glass Leggings,C,149,132,168,149,20,23,34,20,19,37,0,0,None,24,10.4,150
+Lucatiel's Leggings,D,55,49,49,28,25,30,28,0,17,9,18,0,None,22,14,51
+Mad Warrior Leggings,C,101,101,106,97,17,16,12,17,21,21,19,19,None,12,7.4,75
+Manikin Leggings,E,32,34,31,31,16,15,19,20,19,26,0,0,None,0,1.6,65
+Mastodon Leggings,C,98,92,105,98,13,14,9,13,16,18,0,0,Req Str 16,24,10.8,90
+Monastery Skirt,E,47,50,44,44,42,31,27,30,52,33,29,35,None,0,4,55
+Moon Butterfly Skirt,U,41,45,39,39,21,14,22,18,39,17,22,24,None,0,1.2,35
+Old Ironclad Leggings,C,84,78,90,84,12,13,10,12,7,21,0,0,Req Str 14,18,9.4,45
+Old Knight Leggings,C,91,85,94,91,10,10,8,10,8,17,0,0,None,16,8.2,20
+Old Knight Leggings +3,C,111,104,116,111,10,10,6,10,7,19,0,0,None,22,8.2,20
+Pate's Leggings,D,38,40,38,38,13,8,16,13,14,12,0,0,None,0,3.5,70
+Peasant Leggings,E,17,19,16,16,8,9,11,8,12,10,0,0,None,0,2.6,45
+Penal Skirt,D,68,70,70,63,28,35,26,32,11,9,22,29,None,0,4.8,55
+Priestess Kilt,E,36,37,35,0,22,22,31,25,15,14,18,18,None,0,1.9,50
+Prisoner's Waistcloth,U,5,6,5,5,5,5,7,6,6,4,0,0,None,0,1,25
+Royal Soldier Leggings,C,45,43,47,46,14,14,10,14,12,14,0,0,None,8,5.3,70
+Royal Swordsman Leggings,C,55,48,61,57,12,16,9,12,7,16,0,0,None,10,6.1,75
+Ruin Leggings,C,82,75,88,84,19,22,13,19,12,26,34,0,None,12,6.2,105
+Rusted Mastodon Leggings,C,96,90,103,96,13,14,8,13,16,18,0,0,None,17,9.8,40
+Saint's Leggings,E,52,55,49,49,38,38,47,38,23,20,44,41,None,0,2,55
+Shadow Leggings,U,30,34,27,27,16,18,17,21,24,18,15,0,None,0,1.6,60
+Smelter Demon Leggings,C,149,135,164,149,21,39,20,21,14,32,21,21,None,23,10.4,160
+Steel Leggings,C,95,91,101,95,14,15,11,14,13,21,0,0,None,16,8.3,100
+Syan's Leggings,C,70,63,75,72,14,18,8,14,8,23,0,0,None,12,7.1,85
+Targray's Leggings,C,53,49,57,53,13,13,11,15,16,17,0,0,None,10,5.8,75
+Throne Defender Leggings,C,105,101,109,106,21,24,12,21,15,24,0,0,None,13,7.7,100
+Throne Watcher Leggings,C,82,78,88,82,36,23,19,23,18,22,0,0,None,12,6.6,95
+Traveleing Merchant Leggings,U,37,39,35,35,10,11,12,10,13,14,0,0,None,0,3.8,60
+Tseldora Leggings,E,15,16,14,14,7,7,9,6,7,7,0,0,Increase Souls +5%,0,2,40
+Varangian Leggings,D,26,27,25,25,8,6,10,8,10,9,0,0,None,0,2.4,55
+Velstadt's Leggings,C,108,99,115,113,16,17,10,34,12,30,17,23,None,14,7.2,140
+Vengarl's Leggings,U,115,108,122,115,18,22,16,18,17,21,0,0,None,14,7.9,85
+Wanderer Boots,E,35,33,35,35,12,15,17,12,13,21,0,0,None,0,2.1,50
+White Priest Skirt,E,40,42,39,39,24,24,31,27,16,16,15,15,None,0,2.4,50
+Xanthous Kilt,E,54,61,54,46,40,11,25,31,24,21,0,0,None,0,4,60

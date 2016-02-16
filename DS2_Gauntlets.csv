@@ -1,0 +1,100 @@
+itemName,PdefBonus,PdefBase,PdefStrk,PdefSlsh,PdefThst,MdefBase,MdefFire,MdefLght,MdefDark,SdefPois,SdefBled,SdefPetr,SdefCrse,Special,Poise,Weight,Durability
+None,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Agdayne's Black Gloves,E,46,49,45,45,27,26,24,36,28,19,24,33,None,0,2.9,65
+Alonne Captain Gauntlets,C,72,69,76,72,13,21,10,13,7,15,0,0,None,12,6.7,80
+Alonne Knight Gauntlets,C,72,69,76,72,13,21,10,13,7,15,0,0,None,12,6.7,80
+Alva Gauntlets,C,29,28,30,29,8,9,6,9,9,11,0,0,None,4,2.9,80
+Alva Gauntlets +3,C,38,36,39,37,10,11,7,11,11,14,0,0,None,4,2.9,80
+Archdrake Gloves,C,29,29,29,29,9,9,15,9,8,7,0,0,None,6,3.2,80
+Astrologist Gloves,Unknown,25,26,24,24,18,12,12,15,8,8,0,0,None,0,2.1,50
+Aurous Gauntlets,D,40,42,39,39,13,8,16,13,14,13,0,0,None,0,3.8,65
+Bandit Gauntlets,D,30,30,31,29,9,9,7,9,7,10,0,0,None,3,2.8,60
+Bellkeeper Gauntlets,D,27,29,27,27,6,5,8,10,7,5,0,0,None,0,2.5,60
+Benhart's Gauntlets,C,55,52,56,55,12,12,11,12,14,11,0,0,None,9,5.5,72
+Black Dragon Gauntlets,C,48,47,49,48,17,38,18,17,22,31,25,25,None,0,1.8,225
+Black Gloves,E,26,28,25,25,28,19,19,19,12,10,15,14,None,0,1.0,55
+Black Leather Gauntlets,E,30,31,29,29,14,11,10,12,17,12,0,0,None,0,1.8,55
+Black Leather Gauntlets +3,E,39,40,38,38,18,14,13,15,22,15,0,0,None,0,1.8,55
+Black Witch Gloves,E,34,37,33,33,32,25,30,31,11,14,15,15,None,0,1.7,55
+Bone King Gauntlets,E,35,39,34,34,23,25,20,31,18,12,14,22,None,0,1.9,65
+Brigand Gauntlets,E,33,36,32,31,16,13,12,14,13,13,0,0,None,0,1.8,60
+Catarina Gauntlets,Unknown,88,88,102,88,19,21,13,19,0,0,0,0,None,0,6.9,63
+Chaos Gloves,E,26,28,25,25,19,28,19,27,12,10,15,14,None,0,1.0,55
+Creighton's Gauntlets,Unknown,32,31,33,32,10,11,5,10,7,12,0,0,None,6,3.4,70
+Dark Gauntlets,C,68,68,71,65,18,18,12,38,18,21,0,0,None,9,5.8,90
+Dark Gauntlets +2,C,81,81,85,77,21,21,14,45,21,25,0,0,None,9,5.8,90
+Desert Sorceress Gauntlets,Unknown,25,26,24,24,23,16,19,21,9,6,16,8,None,0,1.5,50
+Dingy Gloves,E,32,36,30,30,19,16,18,18,12,14,27,27,None,0,1.2,40
+Dragon Acolyte Gauntlets,E,24,25,24,24,10,10,11,12,11,24,0,0,None,0,1.6,55
+Dragonrider Gauntlets,C,94,87,97,94,10,10,11,10,10,13,0,0,None,10,6.2,95
+Drakekeeper Gauntlets,C,94,91,99,94,15,16,13,15,15,20,0,19,None,14,8.4,90
+Drangleic Gauntlets,C,83,79,90,85,14,14,12,14,14,18,0,0,None,10,6.2,90
+Elite Knight Gauntlets,C,33,32,36,33,9,10,7,9,8,11,0,0,None,4,3.7,85
+Elite Knight Gauntlets +3,C,42,41,46,42,12,13,9,12,10,14,0,0,None,4,3.7,85
+Engraved Gauntlets,C,29,29,29,29,15,15,15,15,15,15,44,44,Critical Hits +5%,0,5.5,55
+Executioner Gauntlets,B,38,34,40,39,9,9,6,20,7,26,0,18,None,4,2.7,65
+Falconer Gauntlets,Unknown,31,32,30,30,9,8,10,9,10,8,0,0,None,4,3.2,75
+Faraam Gauntlets,C,46,44,50,47,10,11,7,10,18,24,0,0,None,11,4.7,85
+Faraam Gauntlets +3,C,60,57,64,61,13,14,9,13,12,16,0,0,None,11,4.7,85
+Grave Warden Gauntlets,E,29,32,28,28,13,12,15,16,16,13,0,0,None,0,2.2,60
+Gyrm Gauntlets,C,38,38,39,36,5,5,4,5,11,8,6,6,None,8,3.6,70
+Gyrm Warrior Gauntlets,C,60,62,62,55,7,9,9,7,5,14,0,0,None,12,5.4,75
+Hard Leather Gauntlets,D,40,42,39,39,13,8,16,13,14,13,0,0,None,0,3.8,65
+Havel's Gauntlets,C,172,150,193,172,25,27,23,25,10,41,19,19,None,28,11.5,255
+Heide Knight Gauntlets,C,53,50,57,53,9,12,8,16,17,13,0,14,None,8,5.4,90
+Heide Knight Gauntlets +3,C,69,65,74,69,11,15,10,20,22,16,0184,None,8,5.4,90
+Hexer Gloves,Unknown,26,28,25,25,19,28,19,27,12,10,15,14,None,0,1.0,55
+Hollow Infantry Gauntlets,D,22,22,21,21,5,4,6,5,5,5,0,0,None,0,2.8,40
+Hollow Soldier Gauntlets,C,26,24,27,26,8,9,6,8,7,8,0,0,None,4,3.2,35
+Imperious Gauntlets,C,65,63,69,65,13,11,9,13,11,14,11,11,None,10,6.0,85
+Imperious Gauntlets +3,C,81,78,85,81,14,11,9,14,11,15,11,11,None,10,6.0,85
+Imported Manchettes,D,13,15,13,13,4,3,5,3,5,5,0,0,None,0,1.8,35
+Infantry Gauntlets,D,27,28,26,26,7,6,9,7,7,7,0,0,None,0,2.8,55
+Insolent Gauntlets,C,50,48,54,50,13,13,16,12,12,15,13,13,None,9,5.8,75
+Ironclad Gauntlets,C,96,89,102,96,15,16,11,15,8,26,0,0,None,20,9.4,90
+Jester's Gloves,D,26,28,26,26,15,15,15,15,16,12,16,10,Souls Gained +10%,0,2.3,45
+Jester's Gloves +3,D,34,36,33,33,19,19,19,19,20,15,20,13,Souls Gained +10%,0,2.3,45
+Judgement Gloves,E,35,38,34,34,18,15,13,16,9,10,0,20,None,0,1.8,50
+King's Gauntlets,C,50,48,53,50,17,17,13,12,19,17,,0,None,8,4.2,120
+Knight's Gauntlets,C,29,29,34,29,9,9,6,9,8,11,0,0,None,6,3.5,80
+Leather Gauntlets,D,39,41,37,37,14,9,19,15,16,13,,,None,0,2.8,60
+Leydia White Gloves,E,33,36,32,32,22,22,19,28,0,0,0,0,None,0,1.2,50
+Lion Mage Cuffs,E,25,26,23,23,24,19,20,24,11,11,13,29,casting speed +11%,0,1.4,40
+Lion Warrior Cuffs +3,E,31,32,31,31,13,13,13,24,9,8,24,45,Reduces Falling Damage,0,1.3,40
+Llewellyn Gauntlets,D,55,51,57,55,17,21,13,17,18,25,10,10,None,0,3.1,85
+Looking Glass Gauntlets,C,149,132,168,149,20,23,34,20,19,37,0,0,None,24,10.4,150
+Lucatiel's Gauntlets,D,25,27,25,25,14,12,15,14,11,9,5,9,None,0,2.0,65
+Mad Warrior Gauntlets,C,101,101,106,97,17,16,12,17,21,21,19,19,None,12,7.4,75
+Manikin Gauntlets,E,24,25,23,23,12,11,14,15,14,20,6,0,None,0,1.2,65
+Manikin Gauntlets +3,E,31,32,29,29,15,14,18,19,18,25,8,0,None,0,1.2,65
+Mastodon Gauntlets,C,98,92,105,98,13,14,9,13,16,18,0,0,Req Str16,18,8.8,90
+Monastery Gloves,E,32,34,30,30,29,21,18,21,36,23,20,24,None,0,0.9,55
+Moon Butterfly Cuffs,?,27,30,26,26,14,9,14,12,26,11,15,16,None,0,0.8,35
+Old Ironclad Gauntlets,C,84,78,90,84,12,13,10,12,7,21,0,0,Req Str 14,18,9.4,45
+Old Knight Gauntlets,C,91,85,94,91,10,10,8,10,8,17,0,,None,16,8.2,20
+Pate's Gauntlets,D,38,40,38,38,13,8,16,13,14,12,0,0,None,0,3.5,70
+Peasant Gauntlets,E,12,13,11,11,5,6,7,5,9,7,0,0,None,0,1.8,45
+Penal HandCuffs,D,55,57,50,21,35,35,19,25,11,9,22,29,Pyro +7.4%,0,4.8,55
+Priestess Gloves,E,17,18,17,17,11,10,15,12,7,7,8,8,None,0,0.9,50
+Prisoner's Gloves,Unknown,5,6,5,5,5,5,7,6,6,4,0,0,None,0,1.0,25
+Rogue Gloves,E,29,28,29,29,9,11,10,12,11,10,0,0,None,0,1.8,55
+Royal Soldier Gauntlets,C,32,31,34,33,10,10,7,10,9,10,0,0,None,6,3.8,70
+Royal Swordsman Gauntlets,C,55,48,61,57,12,16,9,12,7,16,,,None,10,6.1,75
+Ruin Gauntlets,C,82,75,89,84,19,21,13,19,11,26,34,0,None,7,6.2,105
+Rusted Mastodon Gauntlets,C,77,71,82,77,10,11,7,10,13,15,0,0,None,13,7.8,40
+Saint's Gloves,E,26,28,25,25,19,19,23,23,12,10,22,20,None,0,1.0,55
+Shadow Gauntlets,Unknown,30,34,27,27,16,18,17,21,24,18,15,0,Req Dex16 Bleed Att,0,1.6,60
+Smelter Demon Gauntlets,C,149,135,164,149,21,39,20,21,14,32,21,21,None,23,10.4,160
+Steel Gauntlets,C,95,97,101,95,14,15,11,14,13,24,0,0,None,16,8.3,100
+Syan's Gloves,C,52,46,55,52,10,13,6,10,6,17,,,None,9,5.2,85
+Targray's Gauntlets,C,30,28,32,30,7,7,6,8,9,10,0,0,None,7,3.3,75
+Tattered Cloth Gloves,E,29,31,29,29,16,21,14,16,26,9,0,6,None,0,1.6,55
+Throne Defender Gauntlets,C,57,55,59,58,12,13,7,12,8,13,0,0,None,8,4.2,100
+Throne Watcher Gauntlets,C,51,48,55,51,22,14,12,14,11,14,0,0,None,10,4.1,95
+Traveleing Merchant Gloves,Unknown,37,39,35,35,10,11,12,10,13,14,0,0,None,0,3.8,60
+Tseldora Gauntlets,E,15,16,14,14,7,7,9,6,7,7,0,0,Increase Souls +10%,0,2.0,40
+Varangian Gauntlets,D,18,19,17,17,6,4,7,6,7,6,0,0,None,0,1.8,55
+Velstadt's Gauntlets,C,75,69,80,78,11,12,7,24,8,21,12,16,None,12,5.0,140
+Vengarl's Gauntlets,Unknown,77,73,82,77,12,15,11,12,11,14,0,0,None,8,5.3,85
+Wanderer Manchettes,E,35,33,35,35,12,15,17,12,13,21,0,0,None,0,2.1,50
+White Priest Gloves,E,18,19,18,18,11,11,14,12,8,7,7,7,None,0,1.1,50
