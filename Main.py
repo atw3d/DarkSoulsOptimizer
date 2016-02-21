@@ -4,40 +4,41 @@ import sys
 import math
 import os
 
-def GetFloat(strPrompt):
-	#returns int if given numeric; will cycle until given good value
-	while true:
-		strInput = raw_input(strPrompt)
-		if strInput == "exit":
-			flMasterHelms.close()
-			flMasterChests.close()
-			flMasterGauntlets.close()
-			flMasterGreaves.close()
-			sys.exit()
-		else:
-			#Try to convert to given return type
-			try:
-				strReturnVal = float(strInput)
-			except ValueError:
-				print "Must enter a numeric value."
+#ATW 2/21; Removing from build, not currently used; Should be pulled into its own class
+# def GetFloat(strPrompt):
+	## returns int if given numeric; will cycle until given good value
+	# while true:
+		# strInput = raw_input(strPrompt)
+		# if strInput == "exit":
+			# flMasterHelms.close()
+			# flMasterChests.close()
+			# flMasterGauntlets.close()
+			# flMasterGreaves.close()
+			# sys.exit()
+		# else:
+			## Try to convert to given return type
+			# try:
+				# strReturnVal = float(strInput)
+			# except ValueError:
+				# print "Must enter a numeric value."
 
 				
-def GetInt(strPrompt):
-	#returns int if given numeric; will cycle until given good value
-	while true:
-		strInput = raw_input(strPrompt)
-		if strInput == "exit":
-			flMasterHelms.close()
-			flMasterChests.close()
-			flMasterGauntlets.close()
-			flMasterGreaves.close()
-			sys.exit()
-		else:
-			#Try to convert to given return type
-			try:
-				strReturnVal = int(strInput)
-			except ValueError:
-				print "Must enter an integer value."
+# def GetInt(strPrompt):
+	## returns int if given numeric; will cycle until given good value
+	# while true:
+		# strInput = raw_input(strPrompt)
+		# if strInput == "exit":
+			# flMasterHelms.close()
+			# flMasterChests.close()
+			# flMasterGauntlets.close()
+			# flMasterGreaves.close()
+			# sys.exit()
+		# else:
+			## Try to convert to given return type
+			# try:
+				# strReturnVal = int(strInput)
+			# except ValueError:
+				# print "Must enter an integer value."
 
 				
 def TestOwned(lstOwned, helms={}, chests={}, gauntlets={}, greaves={}):
@@ -103,18 +104,23 @@ def main():
 		strBestChest = ""
 		strBestGauntlet = ""
 		strBestGreaves = ""
+		#ATW 2/21; ADD; new functionality to prevent pieces of armor
+		lstPreventHelms = []
+		lstPreventChests = []
+		lstPreventGauntlets = []
+		lstPreventGreaves = []
 			
 			
 		#open files for use, discard first header line
 		#
-		flMasterHelms = open('DS2_Helms.csv','r')
-			#used to create dictionary
-			#flMasterHelms.readline()
-		flMasterGauntlets = open('DS2_Gauntlets.csv','r')
+		flMasterHelms = open('DS'+strVer+'_Helms.csv','r')
+		#ATW 2/21; first header used to create dictionary of [column:index]; created strArmorHeader
+		strArmorHeader = flMasterHelms.readline()
+		flMasterGauntlets = open('DS'+strVer+'_Gauntlets.csv','r')
 		flMasterGauntlets.readline()
-		flMasterChests = open('DS2_Chests.csv','r')
+		flMasterChests = open('DS'+strVer+'_Chests.csv','r')
 		flMasterChests.readline()
-		flMasterGreaves = open('DS2_Greaves.csv','r')
+		flMasterGreaves = open('DS'+strVer+'_Greaves.csv','r')
 		flMasterGreaves.readline()
 		
 		flOwned = open('DS' + strVer + '_' + strUser + '_owned.txt', 'r')
@@ -122,7 +128,7 @@ def main():
 			
 		#Create dictionary of column name:index
 		#
-		lstColNames = flMasterHelms.readline().rstrip().split(',')
+		lstColNames = strArmorHeader.rstrip().split(',')
 		dictIndex = {}
 		for colName in lstColNames:
 			dictIndex[colName] = lstColNames.index(colName)
@@ -156,7 +162,8 @@ def main():
 		#
 		fltMaxWeight = float(raw_input("Maximum Weight: "))
 		fltMaxPercent = float(raw_input("Max Encumerance %: ")) * 0.01
-		fltEncScaling = float(raw_input("Ring Encumberance increase %: ")) * 0.01 + 1.0
+		#ATW 2/21; not needed, ring encumberance is pre-calculated in Max Weight
+		#ltEncScaling = float(raw_input("Ring Encumberance increase %: ")) * 0.01 + 1.0
 		fltWeaponsWeight = float(0.0)
 		while True:
 			strAuxInput = raw_input("Weapon/shield/ring weight: ")
@@ -193,7 +200,27 @@ def main():
 					elif strAuxInput in lstOwnedGreaves:
 						strBestGreaves = strAuxInput
 					else:
-						print "Error in matching input to _owned.txt"
+						print "Error in matching required input to _owned.txt"
+		#ATW 2/21; ADD; new functionality to prevent pieces of armor
+		while True:
+			strAuxInput = raw_input("Prevent armor: ")
+			if strAuxInput == '.':
+				break
+			elif strAuxInput == '':
+				continue
+			elif strAuxInput == 'exit':
+				sys.exit()
+			else:
+				if strAuxInput in lstOwnedHelms:
+						lstPreventHelms.append(strAuxInput)
+				elif strAuxInput in lstOwnedChests:
+					lstPreventChests.append(strAuxInput)
+				elif strAuxInput in lstOwnedGauntlets:
+					lstPreventGauntlets.append(strAuxInput)
+				elif strAuxInput in lstOwnedGreaves:
+					lstPreventGreaves.append(strAuxInput)
+				else:
+					print "Error in matching prevented input to _owned.txt"
 		
 		#iterate through all possibilities, find max armor
 		#
@@ -206,7 +233,21 @@ def main():
 			lstOwnedGauntlets = [strBestGauntlet]
 		if strBestGreaves != "":
 			lstOwnedGreaves = [strBestGreaves]
-			
+		
+		#ATW 2/21; ADD; new functionality to prevent pieces of armor
+		if len(lstPreventHelms) > 0:
+			for each in lstPreventHelms:
+				lstOwnedHelms.remove(each)
+		if len(lstPreventChests) > 0:
+			for each in lstPreventChests:
+				lstOwnedChests.remove(each)
+		if len(lstPreventGauntlets) > 0:
+			for each in lstPreventGauntlets:
+				lstOwnedGauntlets.remove(each)
+		if len(lstPreventGreaves) > 0:
+			for each in lstPreventGreaves:
+				lstOwnedGreaves.remove(each)
+				
 		for curHelm in lstOwnedHelms:
 			for curChest in lstOwnedChests:
 				for curGauntlet in lstOwnedGauntlets:
@@ -222,7 +263,9 @@ def main():
 									   float(dictMasterGreaves[curGreave][dictIndex["Weight"]]) + \
 									   fltWeaponsWeight
 						
-						if fltCurWeight < (fltMaxWeight*fltEncScaling*fltMaxPercent) and fltCurArmor > fltBestArmor:
+						#ATW 2/21; removing fltEncScaling calculation, not needed
+						#if fltCurWeight < (fltMaxWeight*fltEncScaling*fltMaxPercent) and fltCurArmor > fltBestArmor:
+						if fltCurWeight < (fltMaxWeight*fltMaxPercent) and fltCurArmor > fltBestArmor:
 							#under weight, better armor rating
 							#print "New Armor"
 							fltBestArmor = fltCurArmor
@@ -260,6 +303,9 @@ def main():
 
 
 #Start Program
+print "Dark Souls Optimizer ver. 1.0.0.2"
+print "-------------------" + os.linesep
+
 strUser = raw_input("User: ")
 if strUser.lower() == "exit":
 	sys.exit()

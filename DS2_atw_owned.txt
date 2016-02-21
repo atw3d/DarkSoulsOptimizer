@@ -16,6 +16,7 @@ Elite Knight Helm +3
 Falconer Helm
 Faraam Helm +3
 Grave Warden Helm
+Havel's Helm
 Heide Knight Great Helm +3
 Heide Knight Iron Mask +3
 Hexer Hood
@@ -30,14 +31,16 @@ Judgment Mask
 Knight Helm
 Leydia White Hood
 Looking Glass Helm
-Lucatiel's Helm
+Lucatiel's Helm +3
 Manikin Mask +3
 Pate's Helm
 Penal Mask
 Royal Swordsman Helm
 Rusted Mastodon Helm
+Steel Helm
 Syan's Helm
 Tattered Cloth Hood
+Throne Defender Helm
 Throne Watcher Helm
 Tseldora Hat
 Velstadt's Helm
@@ -62,6 +65,7 @@ Falconer Armor
 Faraam Armor +3
 Grave Warden Armor +3
 Gyrm Armor
+Havel's Armor
 Hexer Chest
 Hollow Infantry Armor
 Hollow Soldier Armor
@@ -74,13 +78,15 @@ Leather Armor
 Leydia White Robe
 Lion Mage Robe
 Looking Glass Armor
-Lucatiel's Armor
+Lucatiel's Armor +3
 Pate's Armor
 Penal Straight Jacket
 Prisoner's Rags
 #Rogue Armor
 Royal Swordsman Armor
+Steel Armor
 Tattered Cloth Robe
+Throne Defender Armor
 Throne Watcher Armor
 Tseldora Top
 Varangian Armor
@@ -103,6 +109,7 @@ Desert Sorceress Gauntlets
 Elite Knight Gauntlets +3
 Falconer Gauntlets
 Faraam Gauntlets +3
+Havel's Gauntlets
 Heide Knight Gauntlets +3
 Hexer Gloves
 Hollow Infantry Gauntlets
@@ -117,14 +124,16 @@ Leather Gauntlets
 Lion Mage Cuffs
 Lion Warrior Cuffs +3
 Looking Glass Gauntlets
-Lucatiel's Gauntlets
+Lucatiel's Gauntlets +3
 Manikin Gauntlets +3
 Old Knight Gauntlets
 Pate's Gauntlets
 Penal HandCuffs
 Rogue Gloves
 Royal Swordsman Gauntlets
+Steel Gauntlets
 Syan's Gloves
+Throne Defender Gauntlets
 Throne Watcher Gauntlets
 Tseldora Gauntlets
 Varangian Gauntlets
@@ -147,8 +156,10 @@ Dark Leggings
 Elite Knight Leggings +3
 Falconer Boots
 Faraam Leggings +3
+Flying Feline Boots
 Grave Warden Leggings
 Gyrm Boots
+Havel's Leggings
 #Heavy Boots
 Hexer Leggings
 Imperious Leggings +3
@@ -161,13 +172,15 @@ Leather Leggings
 Lion Mage Skirt
 Lion Warrior Boots
 Looking Glass Leggings
-Lucatiel's Leggings
+Lucatiel's Leggings +3
 Old Knight Leggings +3
 Pate's Leggings
 Penal Skirt
 #Rogue Leggings
 Royal Swordsman Leggings
+Steel Leggings
 Syan's Leggings
+Throne Defender Leggings
 Throne Watcher Leggings
 Tseldora Leggings
 Varangian Leggings
