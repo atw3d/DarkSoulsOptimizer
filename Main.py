@@ -160,7 +160,6 @@ def main():
 				sys.exit()
 			else:
 				#test for existence
-				strAuxInput = strAuxInput.lower()
 				if strAuxInput not in lstOwnedHelms + lstOwnedChests + lstOwnedGauntlets + lstOwnedGreaves:
 					print strAuxInput + " does not exist in owned armor pieces."
 				else:
@@ -184,7 +183,6 @@ def main():
 			elif strAuxInput == 'exit':
 				sys.exit()
 			else:
-				strAuxInput = strAuxInput.lower()
 				if strAuxInput in lstOwnedHelms:
 					lstOwnedHelms.remove(strAuxInput)
 				elif strAuxInput in lstOwnedChests:
