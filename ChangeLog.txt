@@ -1,0 +1,26 @@
+DARK SOULS OPTIMIZER	Current Version: 1.0.0.3
+
+ATW	02/27/2016	Publish Version 1.0.0.3
+###Files Added
+- ChangeLog
+
+###Files Changed
+- DS2_atw_owned
+- Main.py
+
+###Modifications
+- 
+- {New Sets}	;added Dragonrider Set & corrected values
+- DS2_Helms		;added Black Leather Thief Mask +6/+9/+10
+				;corrected values for Smelter Demon Helm
+- DS2_Chests	;added Black Leather Chest +6/+9/+10
+- DS2_Gauntlets	;added Black Leather Gauntlets +6/+9/+10 
+- DS2_Greaves	;added Hexer Leggings all upgrades (+1 -> +5)
+- Main.py		; removed unused getint() getfloat() functions
+				; main()	; create dictIndex["PdefBase"] before iterations for better performance
+				; main()	; new functionality to keep track of 3 best sets
+								; using lstBestArmor instead of strings: [best, 2nd, 3rd]
+							; new print formatting to show sets side-by-side
+				; main()	; user string.lower() for all instances of comparison
+				; main()	; moved Prevent Armor logic to input loop, remove in-place if matched
+				

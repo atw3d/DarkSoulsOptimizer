@@ -1,5 +1,6 @@
 #
 #Helms
+#
 None
 Alonne Captain Helm
 Alonne Knight Helm
@@ -7,11 +8,12 @@ Alva Helm +3
 Archdrake Helm
 Aurous Helm
 Bandit Helm
-Black Leather Thief Mask +3
+Black Leather Thief Mask +9
 Brigand Hood
 Cale's Helm
 Dark Mask
 Desert Sorceress Hood
+Dragonrider Helm
 Elite Knight Helm +3
 Falconer Helm
 Faraam Helm +3
@@ -32,7 +34,7 @@ Knight Helm
 Leydia White Hood
 Looking Glass Helm
 Lucatiel's Helm +3
-Manikin Mask +3
+#Manikin Mask +3
 Pate's Helm
 Penal Mask
 Royal Swordsman Helm
@@ -49,7 +51,7 @@ Vengarl's Helm
 Wanderer Hood
 #
 #Chests
-None
+#None
 Agdayne's Black Robes
 Alonne Captain Armor
 Alonne Knight Armor
@@ -57,10 +59,11 @@ Alva Armor +3
 Archdrake Robes
 Aurous Armor
 Bandit Armor
-Black Leather Armor +3
+Black Leather Armor +10
 Brigand Armor
 Cale's Armor
 Dark Armor
+Dragonrider Armor
 Elite Knight Armor +3
 Falconer Armor
 Faraam Armor +3
@@ -97,6 +100,7 @@ Vengarl's Armor
 Wanderer Coat
 #
 #Gauntlets
+#
 None
 Agdayne's Black Gloves
 Alonne Knight Gauntlets
@@ -104,10 +108,11 @@ Alva Gauntlets +3
 Archdrake Gloves
 Aurous Gauntlets
 Bandit Gauntlets
-Black Leather Gauntlets +3
+Black Leather Gauntlets +9
 Brigand Gauntlets
 Dark Gauntlets +2
 Desert Sorceress Gauntlets
+Dragonrider Gauntlets
 Elite Knight Gauntlets +3
 Falconer Gauntlets
 Faraam Gauntlets +3
@@ -145,6 +150,7 @@ Vengarl's Gauntlets
 Wanderer Manchettes
 #
 #Greaves
+#
 None
 Agdayne's Black Kilt
 Alonne Knight Leggings
@@ -156,6 +162,7 @@ Black Leather Boots +3
 Brigand Trousers
 Cale's Leggings
 Dark Leggings
+Dragonrider Leggings
 Elite Knight Leggings +3
 Falconer Boots
 Faraam Leggings +3

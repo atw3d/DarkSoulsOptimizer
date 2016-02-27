@@ -3,43 +3,6 @@
 import sys
 import math
 import os
-
-#ATW 2/21; Removing from build, not currently used; Should be pulled into its own class
-# def GetFloat(strPrompt):
-	## returns int if given numeric; will cycle until given good value
-	# while true:
-		# strInput = raw_input(strPrompt)
-		# if strInput == "exit":
-			# flMasterHelms.close()
-			# flMasterChests.close()
-			# flMasterGauntlets.close()
-			# flMasterGreaves.close()
-			# sys.exit()
-		# else:
-			## Try to convert to given return type
-			# try:
-				# strReturnVal = float(strInput)
-			# except ValueError:
-				# print "Must enter a numeric value."
-
-				
-# def GetInt(strPrompt):
-	## returns int if given numeric; will cycle until given good value
-	# while true:
-		# strInput = raw_input(strPrompt)
-		# if strInput == "exit":
-			# flMasterHelms.close()
-			# flMasterChests.close()
-			# flMasterGauntlets.close()
-			# flMasterGreaves.close()
-			# sys.exit()
-		# else:
-			## Try to convert to given return type
-			# try:
-				# strReturnVal = int(strInput)
-			# except ValueError:
-				# print "Must enter an integer value."
-
 				
 def TestOwned(lstOwned, helms={}, chests={}, gauntlets={}, greaves={}):
 	lstMasterNames = []
@@ -98,12 +61,21 @@ def main():
 	while True:
 		#vars for final build
 		#
-		fltBestArmor = 0.0
-		fltWeight = 0.0
+		#ATW 2/27; using lists to store 3 best sets instead of strings for 1
+		# fltBestArmor = 0.0
+		# fltWeight = 0.0
 		strBestHelm = ""
 		strBestChest = ""
 		strBestGauntlet = ""
 		strBestGreaves = ""
+		
+		lstfltBestArmor = [0.0,0.0,0.0]
+		lstfltWeight = [0.0,0.0,0.0]
+		lststrBestHelm = ['','','']
+		lststrBestChest = ['','','']
+		lststrBestGauntlet = ['','','']
+		lststrBestGreaves = ['','','']
+		
 		#ATW 2/21; ADD; new functionality to prevent pieces of armor
 		lstPreventHelms = []
 		lstPreventChests = []
@@ -188,6 +160,7 @@ def main():
 				sys.exit()
 			else:
 				#test for existence
+				strAuxInput = strAuxInput.lower()
 				if strAuxInput not in lstOwnedHelms + lstOwnedChests + lstOwnedGauntlets + lstOwnedGreaves:
 					print strAuxInput + " does not exist in owned armor pieces."
 				else:
@@ -211,14 +184,15 @@ def main():
 			elif strAuxInput == 'exit':
 				sys.exit()
 			else:
+				strAuxInput = strAuxInput.lower()
 				if strAuxInput in lstOwnedHelms:
-						lstPreventHelms.append(strAuxInput)
+					lstOwnedHelms.remove(strAuxInput)
 				elif strAuxInput in lstOwnedChests:
-					lstPreventChests.append(strAuxInput)
+					lstOwnedChests.remove(strAuxInput)
 				elif strAuxInput in lstOwnedGauntlets:
-					lstPreventGauntlets.append(strAuxInput)
+					lstOwnedGauntlets.remove(strAuxInput)
 				elif strAuxInput in lstOwnedGreaves:
-					lstPreventGreaves.append(strAuxInput)
+					lstOwnedGreaves.remove(strAuxInput)
 				else:
 					print "Error in matching prevented input to _owned.txt"
 		
@@ -235,59 +209,113 @@ def main():
 			lstOwnedGreaves = [strBestGreaves]
 		
 		#ATW 2/21; ADD; new functionality to prevent pieces of armor
-		if len(lstPreventHelms) > 0:
-			for each in lstPreventHelms:
-				lstOwnedHelms.remove(each)
-		if len(lstPreventChests) > 0:
-			for each in lstPreventChests:
-				lstOwnedChests.remove(each)
-		if len(lstPreventGauntlets) > 0:
-			for each in lstPreventGauntlets:
-				lstOwnedGauntlets.remove(each)
-		if len(lstPreventGreaves) > 0:
-			for each in lstPreventGreaves:
-				lstOwnedGreaves.remove(each)
+		#ATW 2/27; REMOVE; moved to above input logic, take out of lists in place
+		# if len(lstPreventHelms) > 0:
+			# for each in lstPreventHelms:
+				# lstOwnedHelms.remove(each)
+		# if len(lstPreventChests) > 0:
+			# for each in lstPreventChests:
+				# lstOwnedChests.remove(each)
+		# if len(lstPreventGauntlets) > 0:
+			# for each in lstPreventGauntlets:
+				# lstOwnedGauntlets.remove(each)
+		# if len(lstPreventGreaves) > 0:
+			# for each in lstPreventGreaves:
+				# lstOwnedGreaves.remove(each)
 				
+		#ATW 2/27; define dictIndex["PdefBase"] & dictIndex["Weight"] before loops for better performance
+		strDictPDefBaseIndex = dictIndex["PdefBase"]
+		strDictWeightIndex = dictIndex["Weight"]
+		
 		for curHelm in lstOwnedHelms:
 			for curChest in lstOwnedChests:
 				for curGauntlet in lstOwnedGauntlets:
-					for curGreave in lstOwnedGreaves:
-						fltCurArmor = (float(dictMasterHelms[curHelm][dictIndex["PdefBase"]]) + \
-									   float(dictMasterChests[curChest][dictIndex["PdefBase"]]) + \
-									   float(dictMasterGreaves[curGreave][dictIndex["PdefBase"]]) + \
-									   float(dictMasterGauntlets[curGauntlet][dictIndex["PdefBase"]]))
+					for curGreave in lstOwnedGreaves:						
+						fltCurArmor = (float(dictMasterHelms[curHelm][strDictPDefBaseIndex]) + \
+									   float(dictMasterChests[curChest][strDictPDefBaseIndex]) + \
+									   float(dictMasterGreaves[curGreave][strDictPDefBaseIndex]) + \
+									   float(dictMasterGauntlets[curGauntlet][strDictPDefBaseIndex]))
 									  
-						fltCurWeight = float(dictMasterHelms[curHelm][dictIndex["Weight"]]) + \
-									   float(dictMasterChests[curChest][dictIndex["Weight"]]) + \
-									   float(dictMasterGauntlets[curGauntlet][dictIndex["Weight"]]) + \
-									   float(dictMasterGreaves[curGreave][dictIndex["Weight"]]) + \
+						fltCurWeight = float(dictMasterHelms[curHelm][strDictWeightIndex]) + \
+									   float(dictMasterChests[curChest][strDictWeightIndex]) + \
+									   float(dictMasterGauntlets[curGauntlet][strDictWeightIndex]) + \
+									   float(dictMasterGreaves[curGreave][strDictWeightIndex]) + \
 									   fltWeaponsWeight
 						
 						#ATW 2/21; removing fltEncScaling calculation, not needed
 						#if fltCurWeight < (fltMaxWeight*fltEncScaling*fltMaxPercent) and fltCurArmor > fltBestArmor:
-						if fltCurWeight < (fltMaxWeight*fltMaxPercent) and fltCurArmor > fltBestArmor:
-							#under weight, better armor rating
-							#print "New Armor"
-							fltBestArmor = fltCurArmor
-							fltWeight = fltCurWeight
+						
+						#ATw 2/27; new logic to support lists of 3 best armor sets
+						if fltCurWeight < (fltMaxWeight*fltMaxPercent):
+							if fltCurArmor > lstfltBestArmor[0]:
+								#under weight, better armor rating than best
+								lstfltBestArmor[2] = lstfltBestArmor[1]
+								lstfltBestArmor[1] = lstfltBestArmor[0]
+								lstfltBestArmor[0] = fltCurArmor
+								
+								lstfltWeight[2] = lstfltWeight[1]
+								lstfltWeight[1] = lstfltWeight[0]
+								lstfltWeight[0] = fltCurWeight
+								lststrBestHelm[2] = lststrBestHelm[1]
+								lststrBestHelm[1] = lststrBestHelm[0]
+								lststrBestHelm[0] = curHelm
+								lststrBestChest[2] = lststrBestChest[1]
+								lststrBestChest[1] = lststrBestChest[0]
+								lststrBestChest[0] = curChest
+								lststrBestGauntlet[2] = lststrBestGauntlet[1]
+								lststrBestGauntlet[1] = lststrBestGauntlet[0]
+								lststrBestGauntlet[0] = curGauntlet
+								lststrBestGreaves[2] = lststrBestGreaves[1]
+								lststrBestGreaves[1] = lststrBestGreaves[0]
+								lststrBestGreaves[0] = curGreave
 							
-							strBestHelm = curHelm
-							strBestChest = curChest
-							strBestGauntlet = curGauntlet
-							strBestGreaves = curGreave
+							elif fltCurArmor > lstfltBestArmor[1]:
+								#under weight, better armor rating 2nd best
+								lstfltBestArmor[2] = lstfltBestArmor[1]
+								lstfltBestArmor[1] = fltCurArmor
+								lstfltWeight[2] = lstfltWeight[1]
+								lstfltWeight[1] = fltCurWeight
+								
+								lststrBestHelm[2] = lststrBestHelm[1]
+								lststrBestHelm[1] = curHelm
+								lststrBestChest[2] = lststrBestChest[1]
+								lststrBestChest[1] = curChest
+								lststrBestGauntlet[2] = lststrBestGauntlet[1]
+								lststrBestGauntlet[1] = curGauntlet
+								lststrBestGreaves[2] = lststrBestGreaves[1]
+								lststrBestGreaves[1] = curGreave
+							elif fltCurArmor > lstfltBestArmor[2]:
+								#under weight, better armor rating than 3rd best
+								lstfltBestArmor[2] = fltCurArmor
+								lstfltWeight[2] = fltCurWeight
+								
+								lststrBestHelm[2] = curHelm
+								lststrBestChest[2] = curChest
+								lststrBestGauntlet[2] = curGauntlet
+								lststrBestGreaves[2] = curGreave
 		#End iteration
 		
 		#print results
 		#
+		#ATW 2/27; changed to fit 3 columns of results
 		print
-		print "Best Armor: " + str(fltBestArmor)
-		print "Weight: " + str(fltWeight)
-		print "Weapons: " + str(fltWeaponsWeight)
-		print "----- ----- -----"
-		print strBestHelm
-		print strBestChest
-		print strBestGauntlet
-		print strBestGreaves
+		# print "Best Armor: " + str(fltBestArmor)
+		# print "Weight: " + str(fltWeight)
+		# print "Weapons: " + str(fltWeaponsWeight)
+		# print "----- ----- -----"
+		# print strBestHelm
+		# print strBestChest
+		# print strBestGauntlet
+		# print strBestGreaves
+		
+		intJust = 35
+		print "{}{}{}{}".format("Best Armor:".ljust(intJust),str(lstfltBestArmor[0]).ljust(intJust),str(lstfltBestArmor[1]).ljust(intJust),str(lstfltBestArmor[2]).ljust(intJust))
+		print "{}{}{}{}".format("Weight:".ljust(intJust),str(lstfltWeight[0]).ljust(intJust),str(lstfltWeight[1]).ljust(intJust),str(lstfltWeight[2]).ljust(intJust))
+		print "{}{}{}{}".format("-----".ljust(intJust),"-----".ljust(intJust),"-----".ljust(intJust),"-----".ljust(intJust))
+		print "{}{}{}{}".format("".ljust(intJust),lststrBestHelm[0].ljust(intJust),lststrBestHelm[1].ljust(intJust),lststrBestHelm[2].ljust(intJust))
+		print "{}{}{}{}".format("".ljust(intJust),lststrBestChest[0].ljust(intJust),lststrBestChest[1].ljust(intJust),lststrBestChest[2].ljust(intJust))
+		print "{}{}{}{}".format("".ljust(intJust),lststrBestGauntlet[0].ljust(intJust),lststrBestGauntlet[1].ljust(intJust),lststrBestGauntlet[2].ljust(intJust))
+		print "{}{}{}{}".format("".ljust(intJust),lststrBestGreaves[0].ljust(intJust),lststrBestGreaves[1].ljust(intJust),lststrBestGreaves[2].ljust(intJust))
 		
 		strInput = raw_input("exit:")
 		if strInput.lower() == "exit":

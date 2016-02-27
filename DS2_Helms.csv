@@ -15,6 +15,9 @@ Black Hollow Mage Hood,E,32,34,31,31,27,19,21,23,14,13,13,13,Int +1,0,1.9,50
 Black Hood,E,23,25,22,22,25,17,17,17,10,9,13,12,Int +2 Fth +2 Cast Speed+,0,0.9,55
 Black Leather Thief Mask,E,20,21,20,20,10,7,7,8,12,8,0,0,None,0,1.2,55
 Black Leather Thief Mask +3,E,26,27,25,25,12,9,9,10,15,10,0,0,None,0,1.2,55
+Black Leather Thief Mask +6,E,32,33,31,31,15,11,11,12,19,13,0,0,None,0,1.2,55
+Black Leather Thief Mask +9,E,38,39,37,37,18,14,13,15,21,15,0,0,None,0,1.2,55
+Black Leather Thief Mask +10,E,40,42,39,39,19,15,14,16,23,16,0,0,None,0,1.2,55
 Black Witch hat,E,19,23,19,19,15,7,15,15,7,8,12,12,Spell Slot +1,0,0.5,45
 Bone King Crown,E,32,35,30,30,20,22,18,28,16,10,12,20,None,0,1.7,65
 Brigand Hood,E,22,24,22,20,11,9,8,9,9,9,0,0,None,0,1.2,60
@@ -27,7 +30,7 @@ Desert Sorceress Hood,E,10,10,10,10,9,6,8,8,4,2,6,3,Int +3,0,0.6,50
 Dingy Hood,E,21,24,20,20,13,11,12,12,8,9,18,19,None,0,0.8,40
 Dragon Acolyte Helm,E,23,24,22,22,9,9,11,11,11,9,0,11,None,0,1.5,55
 Dragon Sage Hood,E,25,27,25,25,11,11,12,13,12,10,0,21,Faith +1,0,2,55
-Dragonrider Helm,C,113,106,118,113,13,12,13,13,12,16,0,0,None,14,7.5,95
+Dragonrider Helm,C,113,99,128,113,16,33,15,16,10,27,17,17,None,17,7.5,95
 Drakeblood Helm,C,76,74,83,79,10,16,8,14,14,18,0,0,None,7,4.7,85
 Drakekeeper Helm,C,67,65,71,67,10,11,9,10,10,14,0,14,None,12,6,90
 Drangleic Helm,C,79,75,86,81,13,13,11,13,13,17,0,0,None,10,5.9,90
@@ -92,7 +95,7 @@ Ruin Helm,C,53,48,57,54,12,14,8,12,7,17,22,0,None,8,4,105
 Rusted Mastodon Helm,C,59,55,63,59,8,8,5,8,10,11,0,0,None,10,6,40
 Saint's Hood,E,23,25,22,22,17,17,21,17,10,9,2,18,Faith +1 Spells +10%,0,0.9,55
 Shadow Mask,E,34,38,30,30,18,20,19,24,27,21,17,0,None,0,1.8,60
-Smelter Demon Helm,C,129,116,142,129,18,34,17,18,12,28,18,18,Needs Strength 16,15,9,160
+Smelter Demon Helm,C,113,99,128,113,16,33,15,16,10,27,17,17,None,16,9.0,160
 Steel Helm,C,60,57,64,60,8,8,5,8,7,12,0,0,None,14,5.4,100
 Syan's Helm,C,61,55,65,63,12,16,7,12,7,20,0,0,None,10,6.2,85
 Targray's Helm,C,36,34,39,36,9,9,7,10,11,12,0,0,None,5,4,75
