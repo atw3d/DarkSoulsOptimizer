@@ -1,9 +1,60 @@
-None
 #
 #Helms
 #
+None
+Chain Helm
+Thief Mask
+Sorcerer Hat
+Tattered Cloth Hood
+Gargoyle Helm
+Balder Helm
+Elite Knight Helm
+Knight Helm
+Wanderer Hood
+Mask of the Sealer
+Shadow Mask
+#
 #Chests
+#
+None
+Chain Armor
+Black Leather Armor
+Sorcerer Cloak
+Tattered Cloth Robe
+Balder Armor
+Elite Knight Armor
+Leather Armor
+Knight Armor
+Wanderer Coat
+Crimson Robe
+Shadow Garb
 #
 #Gauntlets
 #
+None
+Leather Gauntlets
+Black Leather Gloves
+Sorcerer Gauntlets
+Tattered Cloth Manchette
+Balder Gauntlets
+Elite Knight Gauntlets
+Leather Gloves
+Knight Gauntlets
+Wanderer Manchette
+Crimson Gloves
+Shadow Gauntlets
+#
 #Greaves
+#
+None
+Chain Leggings
+Black Leather Boots
+Sorcerer Boots
+Heavy Boots
+Balder Leggings
+Elite Knight Leggings
+Leather Boots
+Knight Leggings
+Wanderer Boots
+Crimson Waistcloth
+Shadow Leggings

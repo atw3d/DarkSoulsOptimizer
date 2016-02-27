@@ -37,6 +37,7 @@ Pate's Helm
 Penal Mask
 Royal Swordsman Helm
 Rusted Mastodon Helm
+Smelter Demon Helm
 Steel Helm
 Syan's Helm
 Tattered Cloth Hood
@@ -84,6 +85,7 @@ Penal Straight Jacket
 Prisoner's Rags
 #Rogue Armor
 Royal Swordsman Armor
+Smelter Demon Armor
 Steel Armor
 Tattered Cloth Robe
 Throne Defender Armor
@@ -131,6 +133,7 @@ Pate's Gauntlets
 Penal HandCuffs
 Rogue Gloves
 Royal Swordsman Gauntlets
+Smelter Demon Gauntlets
 Steel Gauntlets
 Syan's Gloves
 Throne Defender Gauntlets
@@ -178,6 +181,7 @@ Pate's Leggings
 Penal Skirt
 #Rogue Leggings
 Royal Swordsman Leggings
+Smelter Demon Leggings
 Steel Leggings
 Syan's Leggings
 Throne Defender Leggings

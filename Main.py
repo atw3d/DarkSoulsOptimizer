@@ -158,7 +158,7 @@ def main():
 				  dictMasterHelms, dictMasterChests, dictMasterGauntlets, dictMasterGreaves)
 
 
-		#inputs
+		#Inputs
 		#
 		fltMaxWeight = float(raw_input("Maximum Weight: "))
 		fltMaxPercent = float(raw_input("Max Encumerance %: ")) * 0.01
