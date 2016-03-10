@@ -5,6 +5,7 @@ Alonne Captain Leggings,C,105,100,111,105,19,31,15,19,10,22,0,0,None,20,9.8,80
 Alonne Knight Leggings,C,105,100,111,105,19,31,15,19,10,22,0,0,None,20,9.8,80
 Alva Leggings,C,53,50,55,52,15,16,11,16,16,20,0,0,None,9,5.2,80
 Alva Leggings +3,C,68,65,71,67,19,20,14,20,20,26,0,0,None,9,5.2,80
+Alva Leggings +6,C,84,80,87,83,23,25,17,25,25,32,0,0,None,9,5.2,80
 Archdrake Leggings,C,43,43,43,43,14,13,22,13,11,10,0,0,None,8,4.7,80
 Astrologist Kilt,U,45,47,43,43,33,22,22,28,14,14,0,0,None,0,3.8,50
 Aurous Invisible Leggings,E,48,51,45,46,19,15,20,17,13,15,0,0,Equipment Load +1.5%,0,2,40
@@ -15,6 +16,7 @@ Benhart's Boots,C,64,62,67,64,15,14,13,15,17,13,0,0,None,11,6.5,72
 Black Dragon Leggings,C,72,70,74,72,26,57,27,26,33,47,38,38,None,0,2.7,225
 Black Leather Boots,E,37,38,36,36,18,13,13,15,21,15,0,0,None,0,2.2,55
 Black Leather Boots +3,E,48,49,46,46,23,17,16,19,27,19,0,0,None,0,2.2,55
+Black Leather Boots +6,E,59,60,57,57,28,21,20,23,35,24,0,0,None,0,2.2,55
 Black Boots,E,52,55,49,49,56,38,38,38,23,20,30,27,None,0,2,55
 Black Witch Kilt,E,34,37,33,33,32,25,30,31,11,14,15,15,None,0,1.7,55
 Bone King Kilt,E,54,59,52,52,34,38,31,48,28,18,21,34,None,0,2.9,65
@@ -42,6 +44,8 @@ Gyrm Warrior Boots,C,97,101,101,89,12,14,14,12,9,23,0,0,None,22,8.8,75
 Hard Leather Leggings,D,40,42,39,39,13,8,16,13,14,13,0,0,None,0,3.8,65
 Havel's Leggings,C,168,145,191,168,23,25,20,23,7,40,17,17,Req Str 20,31,11.5,255
 Heide Knight Leggings,C,63,59,68,63,11,14,9,19,21,16,0,17,None,10,6.4,90
+Heide Knight Leggings +3,C,81,77,88,81,14,18,12,24,26,20,0,21,None,10,6.4,90
+Heide Knight Leggings +6,C,100,95,108,100,17,22,15,30,33,25,0,26,None,10,6.4,90
 Hexer Leggings,E,52,55,49,49,38,56,38,38,23,20,30,27,None,0,2,55
 Hexer Leggings +1,E,57,60,54,54,41,61,41,41,25,22,33,29,None,0,2,55
 Hexer Leggings +2,E,62,66,59,59,45,67,45,45,27,24,36,32,None,0,2,55
@@ -68,7 +72,8 @@ Looking Glass Leggings,C,149,132,168,149,20,23,34,20,19,37,0,0,None,24,10.4,150
 Lucatiel's Leggings,D,55,49,49,28,25,30,28,0,17,9,18,0,None,22,14,51
 Lucatiel's Leggings +3,D,66,71,63,63,36,32,39,36,28,22,11,23,None,0,4.0,65
 Mad Warrior Leggings,C,101,101,106,97,17,16,12,17,21,21,19,19,None,12,7.4,75
-Manikin Leggings,E,32,34,31,31,16,15,19,20,19,26,0,0,None,0,1.6,65
+Manikin Leggings,E,32,34,31,31,16,15,19,20,19,26,6,0,None,0,1.6,65
+Manikin Leggings +6,E,51,54,49,49,25,24,30,32,30,41,13,0,None,0,1.6,65
 Mastodon Leggings,C,98,92,105,98,13,14,9,13,16,18,0,0,Req Str 16,24,10.8,90
 Monastery Skirt,E,47,50,44,44,42,31,27,30,52,33,29,35,None,0,4,55
 Moon Butterfly Skirt,U,41,45,39,39,21,14,22,18,39,17,22,24,None,0,1.2,35
@@ -95,7 +100,7 @@ Throne Watcher Leggings,C,82,78,88,82,36,23,19,23,18,22,0,0,None,12,6.6,95
 Traveleing Merchant Leggings,U,37,39,35,35,10,11,12,10,13,14,0,0,None,0,3.8,60
 Tseldora Leggings,E,15,16,14,14,7,7,9,6,7,7,0,0,Increase Souls +5%,0,2,40
 Varangian Leggings,D,26,27,25,25,8,6,10,8,10,9,0,0,None,0,2.4,55
-Velstadt's Leggings,C,113,103,119,117,15,15,8,34,10,29,15,21,None,16,7.2,140
+Velstadt's Leggings,C,114,103,119,117,15,15,8,34,10,29,15,21,None,16,7.2,140
 Vengarl's Leggings,U,115,108,122,115,18,22,16,18,17,21,0,0,None,14,7.9,85
 Wanderer Boots,E,35,33,35,35,12,15,17,12,13,21,0,0,None,0,2.1,50
 White Priest Skirt,E,40,42,39,39,24,24,31,27,16,16,15,15,None,0,2.4,50

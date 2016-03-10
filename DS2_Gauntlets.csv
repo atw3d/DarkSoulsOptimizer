@@ -5,6 +5,7 @@ Alonne Captain Gauntlets,C,72,69,76,72,13,21,10,13,7,15,0,0,None,12,6.7,80
 Alonne Knight Gauntlets,C,72,69,76,72,13,21,10,13,7,15,0,0,None,12,6.7,80
 Alva Gauntlets,C,29,28,30,29,8,9,6,9,9,11,0,0,None,4,2.9,80
 Alva Gauntlets +3,C,38,36,39,37,10,11,7,11,11,14,0,0,None,4,2.9,80
+Alva Gauntlets +6,C,47,44,48,46,12,14,9,13,13,18,0,0,None,4,2.9,80
 Archdrake Gloves,C,29,29,29,29,9,9,15,9,8,7,0,0,None,6,3.2,80
 Astrologist Gloves,Unknown,25,26,24,24,18,12,12,15,8,8,0,0,None,0,2.1,50
 Aurous Gauntlets,D,40,42,39,39,13,8,16,13,14,13,0,0,Equipment Load +1%,0,3.8,65
@@ -90,6 +91,8 @@ Saint's Gloves,E,26,28,25,25,19,19,23,23,12,10,22,20,None,0,1.0,55
 Shadow Gauntlets,Unknown,30,34,27,27,16,18,17,21,24,18,15,0,Req Dex16 Bleed Att,0,1.6,60
 Smelter Demon Gauntlets,C,149,135,164,149,21,39,20,21,14,32,21,21,None,23,10.4,160
 Steel Gauntlets,C,92,87,98,92,12,13,8,12,10,19,0,0,None,19,8.3,100
+Steel Gauntlets +3,C,119,113,127,119,15,16,10,15,13,24,0,0,None,19,8.3,100
+Steel Gauntlets +6,C,146,139,156,146,18,20,12,18,16,29,0,0,None,19,8.3,100
 Syan's Gloves,C,52,46,55,52,10,13,6,10,6,17,,,None,9,5.2,85
 Targray's Gauntlets,C,30,28,32,30,7,7,6,8,9,10,0,0,None,7,3.3,75
 Tattered Cloth Gloves,E,29,31,29,29,16,21,14,16,26,9,0,6,None,0,1.6,55

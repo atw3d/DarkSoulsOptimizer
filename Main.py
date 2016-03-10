@@ -307,13 +307,13 @@ def main():
 		# print strBestGreaves
 		
 		intJust = 35
-		print "{}{}{}{}".format("Best Armor:".ljust(intJust),str(lstfltBestArmor[0]).ljust(intJust),str(lstfltBestArmor[1]).ljust(intJust),str(lstfltBestArmor[2]).ljust(intJust))
-		print "{}{}{}{}".format("Weight:".ljust(intJust),str(lstfltWeight[0]).ljust(intJust),str(lstfltWeight[1]).ljust(intJust),str(lstfltWeight[2]).ljust(intJust))
-		print "{}{}{}{}".format("-----".ljust(intJust),"-----".ljust(intJust),"-----".ljust(intJust),"-----".ljust(intJust))
-		print "{}{}{}{}".format("".ljust(intJust),lststrBestHelm[0].ljust(intJust),lststrBestHelm[1].ljust(intJust),lststrBestHelm[2].ljust(intJust))
-		print "{}{}{}{}".format("".ljust(intJust),lststrBestChest[0].ljust(intJust),lststrBestChest[1].ljust(intJust),lststrBestChest[2].ljust(intJust))
-		print "{}{}{}{}".format("".ljust(intJust),lststrBestGauntlet[0].ljust(intJust),lststrBestGauntlet[1].ljust(intJust),lststrBestGauntlet[2].ljust(intJust))
-		print "{}{}{}{}".format("".ljust(intJust),lststrBestGreaves[0].ljust(intJust),lststrBestGreaves[1].ljust(intJust),lststrBestGreaves[2].ljust(intJust))
+		print "{}{}{}{}".format("Best Armor:".ljust(15),str(lstfltBestArmor[0]).ljust(intJust),str(lstfltBestArmor[1]).ljust(intJust),str(lstfltBestArmor[2]).ljust(intJust))
+		print "{}{}{}{}".format("Weight:".ljust(15),str(lstfltWeight[0]).ljust(intJust),str(lstfltWeight[1]).ljust(intJust),str(lstfltWeight[2]).ljust(intJust))
+		print "{}{}{}{}".format("-----".ljust(15),"-----".ljust(intJust),"-----".ljust(intJust),"-----".ljust(intJust))
+		print "{}{}{}{}".format("".ljust(15),lststrBestHelm[0].ljust(intJust),lststrBestHelm[1].ljust(intJust),lststrBestHelm[2].ljust(intJust))
+		print "{}{}{}{}".format("".ljust(15),lststrBestChest[0].ljust(intJust),lststrBestChest[1].ljust(intJust),lststrBestChest[2].ljust(intJust))
+		print "{}{}{}{}".format("".ljust(15),lststrBestGauntlet[0].ljust(intJust),lststrBestGauntlet[1].ljust(intJust),lststrBestGauntlet[2].ljust(intJust))
+		print "{}{}{}{}".format("".ljust(15),lststrBestGreaves[0].ljust(intJust),lststrBestGreaves[1].ljust(intJust),lststrBestGreaves[2].ljust(intJust))
 		
 		strInput = raw_input("exit:")
 		if strInput.lower() == "exit":
