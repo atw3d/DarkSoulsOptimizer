@@ -1,0 +1,158 @@
+#
+#Helms
+#
+None
+Alonne Knight Helm
+Alva Helm +6
+Archdrake Helm
+Aurous Helm
+Black Leather Thief Mask +3
+Brigand Hood
+Cale's Helm
+Creighton's Helm
+Dark Mask
+Desert Sorceress Hood
+Dragonrider Helm
+Drangleic Helm
+Elite Knight Helm
+Falconer Helm
+Grave Warden Helm
+Heide Knight Great Helm +6
+Heide Knight Iron Mask +6
+Hexer Hood
+Jester's Cap +6
+Judgment Mask
+Knight Helm
+Looking Glass Helm
+Lucatiel's Helm
+#Manikin Mask
+Pate's Helm
+Rogue Helm
+#Smelter Demon Helm
+Steel Helm
+Throne Defender Helm
+Throne Watcher Helm
+Traveling Merchant Hat
+Varangian Helm
+Velstadt's Helm
+Vengarl's Helm
+Wanderer Hood
+#
+#Chests
+None
+Alonne Captain Armor
+Alonne Knight Armor
+Alva Armor +3
+Archdrake Robes
+Aurous Armor
+Bandit Armor
+Black Leather Armor
+Brigand Armor
+Cale's Armor
+Creighton's Armor
+Dark Armor
+Drakekeeper Armor +10
+Drangleic Mail
+Dragonrider Armor
+Elite Knight Armor
+Falconer Armor
+Hexer Chest
+Hollow Infantry Armor
+Hollow Soldier Armor
+Judgement Robe
+Lion Mage Robe
+Lucatiel's Armor
+Manikin Top
+Knight's Armor
+Looking Glass Armor
+Pate's Armor
+Red Lion Warrior Cape
+#Rogue Armor
+Smelter Demon Armor
+Steel Armor
+Throne Defender Armor
+Throne Watcher Armor
+Traveleing Merchant Coat
+Varangian Armor
+Velstadt's Armor
+Vengarl's Armor
+Wanderer Coat
+#
+#Gauntlets
+#
+None
+Alonne Knight Gauntlets
+Alva Gauntlets
+Archdrake Gloves
+Aurous Gauntlets
+Black Leather Gauntlets
+Brigand Gauntlets
+Creighton's Gauntlets
+Dragon Acolyte Gauntlets
+Dragonrider Gauntlets
+Drangleic Gauntlets
+Elite Knight Gauntlets
+Engraved Gauntlets
+Falconer Gauntlets
+Grave Warden Gauntlets
+Gyrm Gauntlets
+Heide Knight Gauntlets
+Hexer Gloves
+Hollow Infantry Gauntlets
+Hollow Soldier Gauntlets
+Judgement Gloves
+Lion Mage Cuffs
+#Lion Warrior Cuffs
+Llewellyn Gauntlets
+Looking Glass Gauntlets
+Lucatiel's Gauntlets
+Old Knight Gauntlets
+Knight's Gauntlets
+Pate's Gauntlets
+Rogue Gloves
+Smelter Demon Gauntlets
+Steel Gauntlets +6
+Throne Defender Gauntlets
+Throne Watcher Gauntlets
+Traveleing Merchant Gloves
+Velstadt's Gauntlets
+Vengarl's Gauntlets
+Wanderer Manchettes
+#
+#Greaves
+#
+None
+Alonne Knight Leggings
+Alva Leggings
+Archdrake Leggings
+Aurous Invisible Leggings
+Black Leather Boots +6
+Brigand Trousers
+Cale's Leggings
+Creighton's Leggings
+Drangleic Leggings
+Dragon Acolyte Boot
+Dragonrider Leggings
+Elite Knight Leggings
+Falconer Boots
+Heide Knight Leggings +6
+#Hexer Leggings
+Judgement Leggings
+Knight's Leggings
+Lion Mage Skirt
+Looking Glass Leggings
+Lucatiel's Leggings
+#Manikin Leggings +6
+Old Knight Leggings
+Pate's Leggings
+#Rogue Leggings
+Royal Swordsman Leggings
+Smelter Demon Leggings
+Steel Leggings
+Throne Defender Leggings
+Throne Watcher Leggings
+Traveleing Merchant Leggings
+Varangian Leggings
+Velstadt's Leggings
+Vengarl's Leggings
+Wanderer Boots
