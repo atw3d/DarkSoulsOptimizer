@@ -1,9 +1,46 @@
-None
 #
 #Helms
 #
+None
+Imported Hood
+Hunter's Hat
+Knight Helm
+Brigand Hood
+Traveling Merchant Hat
+Hollow Infantry Helm
+Infantry Helm
+Old Knight Helm
+#
 #Chests
+#
+None
+Imported Tunic
+Leather Armor
+Knight's Armor
+Brigand Armor
+Hollow Soldier Armor
+Hollow Infantry Armor
+Old Knight Armor
+Drangleic Mail
 #
 #Gauntlets
 #
+None
+Imported Manchettes
+Leather Gauntlets
+Knight's Gauntlets
+Brigand Gauntlets
+Hollow Soldier Gauntlets
+Hollow Infantry Gauntlets
+Old Knight Gauntlets
+Drangleic Gauntlets
+#
 #Greaves
+#
+None
+Imported Trousers
+Leather Leggings
+Knight's Leggings
+Brigand Trousers
+Hollow Soldier Leggings
+Drangleic Leggings
